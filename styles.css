@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+}
+body {
+    background-color: rgb(253, 241, 253);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+#outer-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 7rem;
+    z-index: 1;
+    padding: 1rem;
+    padding-right: 2rem;
+}
+#logo {
+    width: 25%;
+    color: #A100F2;
+}
+#inner-nav {
+    background-color: rgba(207, 194, 194, 0.342);
+    width: 50%;
+    backdrop-filter: blur(10px);
+    height: 90%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+#theme-toggler {
+    width: 25%;
+    text-align: right;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#inner-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    color: #bc00dd;
+}
+#inner-nav ul li {
+ cursor: pointer;
+}
+main {
+    background-image: linear-gradient(180deg, rgba(253, 241, 253, 0.486), #a100f23d);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 65rem;
+    height: 45rem;
+    transform: translateY(-7rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+#description {
+    width: 50%;
+}
+#my-pic {
+    width: 50%;
+    height: 70%;
+}
+.marquee-container {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    transform: translateY(-3rem);
+}
+ 
+.marquee-content {
+   display: flex;
+   justify-content: space-evenly;
+   animation: marquee 20s linear infinite;
+}
+ 
+.marquee-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.marquee-item i {
+    font-size: 60px;
+}
+ 
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+ 
+  100% {
+    transform: translateX(-100%);
+  }
+}
+ 
+  /* Pause animation on hover */
+.marquee-container:hover .marquee-content {
+    animation-play-state: paused;
+}
