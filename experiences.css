@@ -1,0 +1,37 @@
+#experiences-container {
+    position: relative;
+    width: 80%;
+}
+#experiences-container h1 {
+    text-align: center;
+}
+#experiences-container::before {
+    content: '';
+    position: absolute;
+    left: 0.4rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: black;
+}
+#experiences-container li {
+    list-style-type: none;
+}
+#experiences-container li::before {
+    transition: width 0.2s ease, height 0.2s ease;
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transform: translate(-2rem, 1.8rem);
+    z-index: 1;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+#experiences-container li:hover::before {
+    width: 20px;
+    height: 20px;
+    transform: translate(-2.2rem, 1.8rem);
+}
