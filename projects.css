@@ -7,12 +7,27 @@
     margin-top: 2rem;
 }
 #project {
+    position: relative;
     width: 30%;
     height: 20%;
     text-decoration: none;
     color: aliceblue;
+    margin-top: 2rem;
 }
 #project img {
-    width: 20rem;
+    width: 22rem;
     height: 19rem;
+}
+#project-description {
+    display: none;
+    background-color: rgba(224, 121, 190, 0.342);
+    width: 90%;
+    text-align: center;
+}
+#project:hover #project-description {
+    position: absolute;
+    display: block;
+    left: 1rem;
+    transform: translateY(-5rem);
+    border-radius: 5px;
 }
