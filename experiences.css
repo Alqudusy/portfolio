@@ -4,6 +4,7 @@
 }
 #experiences-container h1 {
     text-align: center;
+    color: #2D00F7;
 }
 #experiences-container::before {
     content: '';
@@ -12,7 +13,7 @@
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: black;
+    background-color: #8900F2;
 }
 #experiences-container li {
     list-style-type: none;
@@ -24,14 +25,14 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    border: 2px solid black;
     transform: translate(-2rem, 1.8rem);
     z-index: 1;
-    background-color: aliceblue;
+    background-color: #F20089;
     cursor: pointer;
 }
 #experiences-container li:hover::before {
     width: 20px;
     height: 20px;
     transform: translate(-2.2rem, 1.8rem);
+    background-color: #2D00F7;
 }

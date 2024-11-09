@@ -6,28 +6,55 @@
     height: 20%;
     margin-top: 2rem;
 }
+
 #project {
     position: relative;
     width: 30%;
     height: 20%;
     text-decoration: none;
-    color: aliceblue;
+    color: #F20089; /* Vibrant text color for project titles */
     margin-top: 2rem;
 }
+
 #project img {
     width: 22rem;
-    height: 19rem;
+    height: 18rem;
+    border-radius: 8px; /* Optional: add some rounding to the images */
 }
+
 #project-description {
     display: none;
-    background-color: rgba(224, 121, 190, 0.342);
+    background-color: rgba(242, 0, 137, 0.5); /* Soft background color for the description */
     width: 90%;
     text-align: center;
+    color: white; /* White text for better contrast */
 }
+
+#project i {
+    display: none;
+    color: #A100F2; /* Use a complementary color for the icons */
+}
+
 #project:hover #project-description {
     position: absolute;
     display: block;
+    transition: all 0.5s ease-in-out;
     left: 1rem;
     transform: translateY(-5rem);
     border-radius: 5px;
+    background-color: rgba(242, 0, 137, 0.7); /* Darker background on hover */
+}
+
+#project:hover i {
+    position: absolute;
+    display: block;
+    right: 0.5rem;
+    top: 0.5rem;
+    color: #BC00DD; /* Change icon color to match the vibrant theme */
+}
+
+#about-me {
+    text-align: center;
+    margin: 2rem;
+    color: #2D00F7; /* Heading color for the About Me section */
 }
