@@ -6,10 +6,7 @@ body {
     background-color: #f8eef8 !important;
     margin: 0;
     padding: 0;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
 }
@@ -32,7 +29,7 @@ body {
 #inner-nav {
     position: fixed;
     right: 30%;
-    background-color: rgba(207, 194, 194, 0.342);
+    background-color: rgba(187, 133, 204, 0.342);
     width: 40%;
     backdrop-filter: blur(10px) !important;
     height: 4rem;
@@ -96,7 +93,7 @@ main {
 
 .marquee-container {
     width: 100%;
-    background-color: #a159ff88;
+    background-color: #a159ff;
     padding: 15px 0;
     transform: translateY(-3rem);
     color: #6443f5;

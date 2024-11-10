@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mobile.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
+<body class="d-flex justify-content-center align-items-center">
     <nav id="outer-nav">
         <h2 class="navbar-text" id="logo">Alqudusy</h2>
         <nav id="inner-nav">
@@ -43,6 +44,7 @@
           <div class="marquee-item px-4 py-2"><i class="fa-brands fa-bootstrap"></i><p>BOOTSTRAP</p></div>
           <div class="marquee-item px-4 py-2"><i class="fa-brands fa-git-alt"></i><p>GIT</p></div>
           <div class="marquee-item px-4 py-2"><i class="fa-brands fa-github"></i><p>GITHUB</p></div>
+          <div class="marquee-item px-4 py-2"><i class="fa-brands fa-shopify"></i><p>SHOPIFY</p></div>
         </div>
     </div>
     <div id="experiences-container">
@@ -89,43 +91,66 @@
             </li>
         </ul>
     </div>
-    <h1>My projects</h1>
-    <div id="projects">
-        <a href="http://" id="project">
-            <i class="fa-solid fa-up-right-from-square"></i>
-            <img src="nylon.png" alt="Nylon e-commerce website"/>
-            <p id="project-description">A colorful, responsive e-commerce site for nylon bags with product listings,
-                 search, and checkout, built with mobile-first design.</p>
+    <h1 style="margin-top: 3rem;">My projects</h1>
+    <div id="projects" class="row justify-content-center">
+        <!-- Project 1 -->
+        <a href="http://" class="project col-md-4 col-sm-6 col-12 my-5 d-flex flex-column align-items-center text-center position-relative">
+            <img src="nylon.png" alt="Nylon e-commerce website" class="img-fluid mb-3"/>
+            <div class="project-overlay">
+                <i class="fa-solid fa-up-right-from-square"></i>
+                <p class="project-description">A colorful, responsive e-commerce site for nylon bags with product listings,
+                     search, and checkout, built with mobile-first design.</p>
+            </div>
         </a>
-        <a href="http://" id="project">
-            <i class="fa-solid fa-up-right-from-square"></i>
-            <img src="todolist-app.png" alt="updated todo list"/>
-            <p id="project-description"> A responsive to-do list app with added functionality for editing tasks even after page reload,
-                 improving task management.</p>
+    
+        <!-- Project 2 -->
+        <a href="http://" class="project col-md-4 col-sm-6 col-12 my-5 d-flex flex-column align-items-center text-center position-relative">
+            <img src="todolist-app.png" alt="Updated todo list" class="img-fluid mb-3"/>
+            <div class="project-overlay">
+                <i class="fa-solid fa-up-right-from-square"></i>
+                <p class="project-description">A responsive to-do list app with added functionality for editing tasks even after page reload,
+                     improving task management.</p>
+            </div>
         </a>
-        <a href="http://" id="project">
-            <img src="weather-app.png" alt="Weather web app"/>
-            <i class="fa-solid fa-up-right-from-square"></i>
-            <p id="project-description">Real-time weather updates based on user location,
-                 providing accurate and accessible weather data for local conditions.</p>
+    
+        <!-- Project 3 -->
+        <a href="http://" class="project col-md-4 col-sm-6 col-12 my-5 d-flex flex-column align-items-center text-center position-relative">
+            <img src="weather-app.png" alt="Weather web app" class="img-fluid mb-3"/>
+            <div class="project-overlay">
+                <i class="fa-solid fa-up-right-from-square"></i>
+                <p class="project-description">Real-time weather updates based on user location,
+                     providing accurate and accessible weather data for local conditions.</p>
+            </div>
         </a>
-        <a href="http://" id="project">
-            <img src="expense-tracker.png" alt="Expense tracker"/>
-            <i class="fa-solid fa-up-right-from-square"></i>
-            <p id="project-description"> A single-page app with a sidebar,
-                 tracking expenses efficiently with an interactive interface and dynamic, reload-free updates.</p>
+    
+        <!-- Project 4 -->
+        <a href="http://" class="project col-md-4 col-sm-6 col-12 my-5 d-flex flex-column align-items-center text-center position-relative">
+            <img src="expense-tracker.png" alt="Expense tracker" class="img-fluid mb-3"/>
+            <div class="project-overlay">
+                <i class="fa-solid fa-up-right-from-square"></i>
+                <p class="project-description">A single-page app with a sidebar,
+                     tracking expenses efficiently with an interactive interface and dynamic, reload-free updates.</p>
+            </div>
         </a>
-        <a href="http://" id="project">
-            <img src="webpack-weather-app.png" alt="Webpack weather weather app">
-            <i class="fa-solid fa-up-right-from-square"></i>
-            <p id="project-description">Real-time local forecasts with fast, 
-                optimized performance using Webpack. accurate, responsive weather updates on the go.</p>
+    
+        <!-- Project 5 -->
+        <a href="http://" class="project col-md-4 col-sm-6 col-12 my-5 d-flex flex-column align-items-center text-center position-relative">
+            <img src="webpack-weather-app.png" alt="Webpack weather app" class="img-fluid mb-3"/>
+            <div class="project-overlay">
+                <i class="fa-solid fa-up-right-from-square"></i>
+                <p class="project-description">Real-time local forecasts with fast, 
+                    optimized performance using Webpack. Accurate, responsive weather updates on the go.</p>
+            </div>
         </a>
-        <a href="http://" id="project">
-            <img src="updated-todo.png" alt="Updated todo webapp"/>
-            <i class="fa-solid fa-up-right-from-square"></i>
-            <p id="project-description">Editable task manager with dark and light themes. Update tasks anytime,
-                 even after reload, for easy organization!</p>
+    
+        <!-- Project 6 -->
+        <a href="http://" class="project col-md-4 col-sm-6 col-12 my-5 d-flex flex-column align-items-center text-center position-relative">
+            <img src="updated-todo.png" alt="Updated todo webapp" class="img-fluid mb-3"/>
+            <div class="project-overlay">
+                <i class="fa-solid fa-up-right-from-square"></i>
+                <p class="project-description">Editable task manager with dark and light themes. Update tasks anytime,
+                     even after reload, for easy organization!</p>
+            </div>
         </a>
     </div>
     <section id="about-me">
@@ -138,16 +163,37 @@
              I enjoy working on open-source projects and tackling challenges that allow me to grow.
               I'm always eager to expand my knowledge, refine my skills, and create impactful solutions through code.</p>
     </section>
-    <form id="contact-me">
-        <h1>Send me a Message <i class="fa-solid fa-paper-plane"></i></h1>
-        <input type="text" name="fname" id="fname" placeholder="Full name" required>
-        <input type="email" name="email" id="email" placeholder="Email Address" required>
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
-        <button type="submit" id="submit">Send <i class="fa-solid fa-paper-plane"></i></button>
-    </form>
+    <form id="contact-me" class="container p-4 rounded shadow">
+        <h1 class="text-center mb-4">Send me a Message <i class="fa-solid fa-paper-plane"></i></h1>
+        
+        <!-- Full Name Input -->
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+            <input type="text" name="fname" id="fname" class="form-control" placeholder="Full name" required>
+        </div>
+        
+        <!-- Email Input -->
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
+        </div>
+        
+        <!-- Message Input -->
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-solid fa-comment-dots"></i></span>
+            <textarea name="message" id="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+        </div>
+        
+        <!-- Submit Button -->
+        <div class="text-center">
+            <button type="submit" id="submit" class="btn btn-primary btn-lg">
+                Send <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </div>
+    </form>    
     <footer id="footer-section">
         <div id="social">
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="social-link">
+            <a href="https://x.com/alqudusy22" target="_blank" rel="noopener noreferrer" class="social-link">
                 <i class="fa-brands fa-twitter"></i>
             </a>
             <a href="http://" target="_blank" rel="noopener noreferrer" class="social-link">
@@ -161,5 +207,6 @@
             &copy; 2024 Alqudusy.
         </div>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>

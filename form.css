@@ -1,44 +1,39 @@
 #contact-me {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin-top: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f8f9fa;
 }
 
 #contact-me h1 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #6443f5;
+    color: #333;
+    font-size: 1.75rem;
 }
 
-input {
-    margin-bottom: 2rem;
-    height: 3rem;
-    border-radius: 5px;
+#contact-me .input-group-text {
+    background-color: #a159ff; /* Icon background color */
+    color: white; /* Icon color */
     border: none;
-    background-color: #d18ef3b2;
-    color: #BC00DD;
 }
 
-textarea {
-    margin-bottom: 2rem;
-    border-radius: 5px;
+#contact-me .form-control {
+    border: 1px solid #ced4da;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+#contact-me button#submit {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    color: #fff;
+    background-color: #a159ff;
     border: none;
-    background-color: #d18ef3b2;
-    color: #BC00DD;
+    transition: background-color 0.3s ease;
 }
 
-#submit {
-    margin: auto;
-    width: 6rem;
-    height: 2rem;
-    border: none;
-    border-radius: 5px;
-    background-color: #8900F2;
-    color: white;
-    cursor: pointer;
+#contact-me button#submit:hover {
+    background-color: #8e37ff; /* Slightly darker hover color */
 }
 
-#submit:hover {
-    background-color: #A100F2; /* Hover effect for the submit button */
+#contact-me .input-group textarea {
+    resize: none; /* Prevent resizing */
 }
