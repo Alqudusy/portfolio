@@ -3,14 +3,14 @@
 }
 
 body {
-    background-color: #E500A4 !important;
+    background-color: #f8eef8 !important;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100%;
 }
 
@@ -22,28 +22,27 @@ body {
     z-index: 4;
     padding: 1rem;
     padding-right: 2rem;
-    background-color: #bc00dd46;
 }
 
 #logo {
     width: 25%;
-    color: #F20089;
+    color: #6443f5;
 }
     
-    #inner-nav {
-        position: fixed;
-        right: 30%;
-        background-color: rgba(207, 194, 194, 0.342);
-        width: 40%;
-        backdrop-filter: blur(10px) !important;
-        height: 4rem;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0.5rem;
-    }
+#inner-nav {
+    position: fixed;
+    right: 30%;
+    background-color: rgba(207, 194, 194, 0.342);
+    width: 40%;
+    backdrop-filter: blur(10px) !important;
+    height: 4rem;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+}
 
 #theme-toggler {
     width: 35%;
@@ -52,7 +51,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: #2D00F7;
+    color: #a441f5;
 }
 
 #inner-nav ul {
@@ -62,7 +61,7 @@ body {
     align-items: center;
     width: 100%;
     padding: 0.5rem;
-    color: #F20089;
+    color: #6443f5;
 }
 
 #inner-nav ul li {
@@ -70,7 +69,9 @@ body {
 }
 
 main {
-    background: linear-gradient(180deg,#F20089,#E500A4,#DB00B6,#D100D1,#BC00DD,#B100E8,#A100F2,#8900F2,#6A00F4,#2D00F7);
+    background: linear-gradient(180deg, #d18ef3b2, 
+    #a159ff88,
+    #6443f5bb);
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     width: 90%;
@@ -95,10 +96,10 @@ main {
 
 .marquee-container {
     width: 100%;
-    background-color: #6A00F4;
+    background-color: #a159ff88;
     padding: 15px 0;
     transform: translateY(-3rem);
-    color: #F20089;
+    color: #6443f5;
 }
 
 .marquee-content {
@@ -117,7 +118,7 @@ main {
 
 .marquee-item i {
     font-size: 60px;
-    color: #F20089;
+    color: #6443f5;
 }
 
 @keyframes marquee {

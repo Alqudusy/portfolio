@@ -8,7 +8,7 @@
 #contact-me h1 {
     text-align: center;
     margin-bottom: 2rem;
-    color: #2D00F7; /* Vibrant color for the heading */
+    color: #6443f5;
 }
 
 input {
@@ -16,16 +16,16 @@ input {
     height: 3rem;
     border-radius: 5px;
     border: none;
-    background-color: rgba(242, 0, 137); /* Using a soft, subtle background color from your palette */
-    color: #BC00DD; /* Text color to match the theme */
+    background-color: #d18ef3b2;
+    color: #BC00DD;
 }
 
 textarea {
     margin-bottom: 2rem;
     border-radius: 5px;
     border: none;
-    background-color: rgba(242, 0, 137); /* Same soft background as input */
-    color: #BC00DD; /* Text color to match the theme */
+    background-color: #d18ef3b2;
+    color: #BC00DD;
 }
 
 #submit {
@@ -34,8 +34,8 @@ textarea {
     height: 2rem;
     border: none;
     border-radius: 5px;
-    background-color: #8900F2; /* Bold button color */
-    color: white; /* Text color for the button */
+    background-color: #8900F2;
+    color: white;
     cursor: pointer;
 }
 

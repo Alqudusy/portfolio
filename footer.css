@@ -3,7 +3,7 @@
     height: 5rem;
     display: flex;
     justify-content: center;
-    background-color: #6A00F4;
+    background-color: #a159ff88;
     margin-top: 1rem;
 }
 
@@ -16,7 +16,7 @@
     font-size: larger;
 }
 #social a {
-    color: #F20089;
+    color: #6443f5;
 }
 
 #copyright {
@@ -25,6 +25,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #BC00DD;
+    color: #6443f5;
     font-size: larger;
 }

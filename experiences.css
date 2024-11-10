@@ -1,10 +1,11 @@
 #experiences-container {
     position: relative;
     width: 80%;
+    color: #6443f5;
 }
 #experiences-container h1 {
     text-align: center;
-    color: #2D00F7;
+    color: #6443f5;
 }
 #experiences-container::before {
     content: '';
@@ -27,12 +28,12 @@
     border-radius: 50%;
     transform: translate(-2rem, 1.8rem);
     z-index: 1;
-    background-color: #F20089;
+    background-color: #cc7cfa;
     cursor: pointer;
 }
 #experiences-container li:hover::before {
     width: 20px;
     height: 20px;
     transform: translate(-2.2rem, 1.8rem);
-    background-color: #2D00F7;
+    background-color: #6443f5;
 }

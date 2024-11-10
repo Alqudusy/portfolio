@@ -12,27 +12,27 @@
     width: 30%;
     height: 20%;
     text-decoration: none;
-    color: #F20089; /* Vibrant text color for project titles */
+    color: #d18ef3b2;
     margin-top: 2rem;
 }
 
 #project img {
     width: 22rem;
     height: 18rem;
-    border-radius: 8px; /* Optional: add some rounding to the images */
+    border-radius: 8px;
 }
 
 #project-description {
     display: none;
-    background-color: rgba(242, 0, 137, 0.5); /* Soft background color for the description */
+    background-color: #d18ef3b2 !important;
     width: 90%;
     text-align: center;
-    color: white; /* White text for better contrast */
+    color: white;
 }
 
 #project i {
     display: none;
-    color: #A100F2; /* Use a complementary color for the icons */
+    color: #A100F2;
 }
 
 #project:hover #project-description {
@@ -56,5 +56,5 @@
 #about-me {
     text-align: center;
     margin: 2rem;
-    color: #2D00F7; /* Heading color for the About Me section */
+    color: #6443f5; /* Heading color for the About Me section */
 }
