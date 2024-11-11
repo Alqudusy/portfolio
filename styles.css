@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -65,7 +66,10 @@ body {
     padding: 0.5rem;
     color: #ffb703;
 }
-
+#inner-nav ul a {
+    text-decoration: none;
+    color: #ffb703;
+}
 #inner-nav ul li {
     cursor: pointer;
 }

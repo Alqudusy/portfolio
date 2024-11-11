@@ -6,8 +6,8 @@
     }
 
     #hamburger {
-        display: block; /* Show hamburger on mobile */
-        font-size: 30px;
+        display: block;
+        font-size: 25px;
         cursor: pointer;
         color: #ffb703;
     }
