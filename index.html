@@ -17,7 +17,9 @@
 <body class="d-flex justify-content-center align-items-center">
     <nav id="outer-nav">
         <h2 class="navbar-text" id="logo">Alqudusy</h2>
+    
         <nav id="inner-nav">
+            <i class="fa-solid fa-bars" id="hamburger"></i> <!-- Hamburger Icon for Mobile -->
             <ul>
                 <li><i class="fa-solid fa-house"></i></li>
                 <li><i class="fa-solid fa-user"></i></li>
@@ -26,8 +28,8 @@
                 <li><i class="fa-solid fa-envelope"></i></li>
             </ul>
         </nav>
-        <i class="fa-solid fa-moon" class="navbar-text" id="theme-toggler"></i>
-    </nav>
+        <i class="fa-solid fa-moon" id="theme-toggler"></i>
+    </nav>    
     <main>
         <div id="description">
             <h1>I am Yusuf Abdulqudus</h1>
@@ -91,6 +93,16 @@
             </li>
         </ul>
     </div>
+    <section id="about-me">
+        <h1>About Me</h1>
+        <p>I'm an enthusiastic frontend developer with a growing expertise in web development,
+             currently focused on mastering JavaScript, React, and Django. 
+             I have a solid foundation in HTML and CSS and love crafting responsive, 
+             dynamic applications that prioritize user experience. 
+             Driven by curiosity and a passion for problem-solving, 
+             I enjoy working on open-source projects and tackling challenges that allow me to grow.
+              I'm always eager to expand my knowledge, refine my skills, and create impactful solutions through code.</p>
+    </section>
     <h1 style="margin-top: 3rem;">My projects</h1>
     <div id="projects" class="row justify-content-center">
         <!-- Project 1 -->
@@ -153,16 +165,6 @@
             </div>
         </a>
     </div>
-    <section id="about-me">
-        <h1>About Me</h1>
-        <p>I'm an enthusiastic frontend developer with a growing expertise in web development,
-             currently focused on mastering JavaScript, React, and Django. 
-             I have a solid foundation in HTML and CSS and love crafting responsive, 
-             dynamic applications that prioritize user experience. 
-             Driven by curiosity and a passion for problem-solving, 
-             I enjoy working on open-source projects and tackling challenges that allow me to grow.
-              I'm always eager to expand my knowledge, refine my skills, and create impactful solutions through code.</p>
-    </section>
     <form id="contact-me" class="container p-4 rounded shadow">
         <h1 class="text-center mb-4">Send me a Message <i class="fa-solid fa-paper-plane"></i></h1>
         
@@ -191,22 +193,24 @@
             </button>
         </div>
     </form>    
-    <footer id="footer-section">
-        <div id="social">
-            <a href="https://x.com/alqudusy22" target="_blank" rel="noopener noreferrer" class="social-link">
-                <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="social-link">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="social-link">
-                <i class="fa-brands fa-tiktok"></i>
-            </a>
+    <footer id="footer-section" class="container-fluid">
+        <div class="row justify-content-center align-items-center text-center py-3">
+            <div id="social" class="col-12 col-md-6 d-flex justify-content-around mb-2 mb-md-0">
+                <a href="https://x.com/alqudusy22" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="http://" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="http://" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+            <div id="copyright" class="col-12 col-md-6">
+                &copy; 2024 Alqudusy.
+            </div>
         </div>
-        <div id="copyright">
-            &copy; 2024 Alqudusy.
-        </div>
-    </footer>
+    </footer>    
 <script src="script.js"></script>
 </body>
 </html>

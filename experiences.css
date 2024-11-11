@@ -1,11 +1,11 @@
 #experiences-container {
     position: relative;
     width: 80%;
-    color: #6443f5;
+    color: #03045e;
 }
 #experiences-container h1 {
     text-align: center;
-    color: #6443f5;
+    color: #03045e;
 }
 #experiences-container::before {
     content: '';
@@ -14,7 +14,7 @@
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: #8900F2;
+    background-color: #00b4d8;
 }
 #experiences-container li {
     list-style-type: none;
@@ -28,12 +28,12 @@
     border-radius: 50%;
     transform: translate(-2rem, 1.8rem);
     z-index: 1;
-    background-color: #cc7cfa;
+    background-color: #ffb703;
     cursor: pointer;
 }
 #experiences-container li:hover::before {
     width: 20px;
     height: 20px;
     transform: translate(-2.2rem, 1.8rem);
-    background-color: #6443f5;
+    background-color: #03045e;
 }

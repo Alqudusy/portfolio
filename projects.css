@@ -3,10 +3,12 @@
     transition: transform 0.3s ease;
     position: relative;
     overflow: hidden;
+    background-color: #f0f0f0;
 }
 
 .project:hover {
     transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .project img {
@@ -25,7 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(194, 184, 241, 0.6);
+    background-color: rgba(194, 184, 241, 0.8);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     border-radius: 8px;
@@ -37,12 +39,12 @@
 
 .project-overlay i {
     font-size: 1.5rem;
-    color: #BC00DD;
+    color: #ffb703;
     margin-bottom: 0.5rem;
 }
 
 .project-description {
-    color: #333;
+    color: #444;
     font-size: 0.9rem;
     width: 90%;
     text-align: center;
@@ -52,8 +54,14 @@
     padding: 1rem;
 }
 
+
 #about-me {
     text-align: center;
-    margin: 2rem;
-    color: #6443f5;
+    margin: 2rem auto;
+    padding: 2rem; /* Add padding for spacing within the section */
+    color: #03045e; /* Deep Navy Blue for text */
+    border-radius: 10px; /* Slight rounding for a modern look */
+    width: 80%; /* Adjust width for better readability on large screens */
+    max-width: 700px; /* Limit max width for larger screens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }

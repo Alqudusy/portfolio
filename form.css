@@ -2,38 +2,63 @@
     width: 80%;
     margin: 0 auto;
     background-color: #f8f9fa;
+    padding: 2rem; /* Added padding for more spacing */
+    border-radius: 8px; /* Soft border radius for a modern touch */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    margin-bottom: 2rem;
 }
 
 #contact-me h1 {
     color: #333;
     font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 1.5rem; /* Adds some space below the header */
+    transition: color 0.3s ease;
 }
 
+#contact-me h1:hover {
+    color: #00b4d8; /* Change to bright cyan when hovered */
+}
+
+
 #contact-me .input-group-text {
-    background-color: #a159ff; /* Icon background color */
-    color: white; /* Icon color */
+    background-color: #a159ff; /* Vibrant Purple */
+    color: white; /* White icon color */
     border: none;
+    border-radius: 5px; /* Soft rounded corners */
 }
 
 #contact-me .form-control {
     border: 1px solid #ced4da;
     padding: 1rem;
     font-size: 1rem;
+    border-radius: 5px; /* Rounded corners for input fields */
+    transition: border-color 0.3s ease;
 }
+
+#contact-me .form-control:focus {
+    border-color: #00b4d8; /* Highlight border on focus with cyan */
+    box-shadow: 0 0 5px rgba(0, 180, 216, 0.5); /* Subtle glow effect */
+}
+
 
 #contact-me button#submit {
     padding: 0.75rem 1.5rem;
     font-size: 1.25rem;
-    color: #fff;
-    background-color: #a159ff;
+    background-color: #00b4d8; /* Cyan background */
+    color: white;
     border: none;
-    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer; /* Pointer cursor on hover */
 }
 
 #contact-me button#submit:hover {
-    background-color: #8e37ff; /* Slightly darker hover color */
+    background-color: #ffb703; /* Hover effect with vibrant yellow-orange */
+    transform: scale(1.05); /* Slight scale effect for interaction */
 }
 
+
 #contact-me .input-group textarea {
-    resize: none; /* Prevent resizing */
+    resize: none;
 }
